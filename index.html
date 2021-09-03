@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new-old-project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="page">
+    <!--шапка сайта-->
+    <header class="page-header">
+      <nav class="container page-nav">
+        <a href="./index.html" class="logo">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span>
+        </a>
+
+        <ul class="site-nav">
+          <li><a href="#" class="current">Студия</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+
+        <ul class="auth-nav">
+          <li><a href="info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--тело сайта-->
+    <main>
+      <section class="hero">
+        <div class="overlay">
+          <div>
+            <!-- class="container" убрали у дива -->
+            <h1 class="hero-title">
+              Эффективные решения<br />
+              для вашего бизнеса
+            </h1>
+            <button class="hero-button">Заказать услугу</button>
+          </div>
+        </div>
+      </section>
+      <!--качества-->
+      <!-- эффект ховера для свг иконок -->
+      <section class="noname">
+        <div class="container">
+          <ul class="noname-menu">
+            <li class="noname-item">
+              <img
+                src="./images/antenna.svg"
+                class="noname-icon"
+                alt="antena"
+              />
+              <h3 class="noname-title">Внимание к деталям</h3>
+              <p class="noname-merit">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="noname-item">
+              <img
+                src="./images/clock — копия.svg"
+                class="noname-icon"
+                alt="clock"
+              />
+              <h3 class="noname-title">Пунктуальность</h3>
+              <p class="noname-merit">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="noname-item">
+              <img
+                src="./images/diagram.svg"
+                class="noname-icon"
+                alt="computer"
+              />
+              <h3 class="noname-title">Планирование</h3>
+              <p class="noname-merit">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="noname-item">
+              <img
+                src="./images/astronaut — копия.svg"
+                class="noname-icon"
+                alt="astronaut"
+              />
+              <h3 class="noname-title">Современные технологии</h3>
+              <p class="noname-merit">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- наши работы -->
+      <section class="works">
+        <div class="container">
+          <h2 class="works-title">Чем мы занимаемся</h2>
+          <ul class="works-icons">
+            <li class="works-item">
+              <img src="./images/pc.jpg" width="370" alt="photo pc" />
+              <p class="works-rubric">Десктопные приложения</p>
+            </li>
+
+            <li class="works-item">
+              <img src="./images/phone.jpg" width="370" alt="photo phone" />
+              <p class="works-rubric">Мобильные приложения</p>
+            </li>
+            <li class="works-item">
+              <img
+                src="./images/bookreader.jpg"
+                width="370"
+                alt="photo bookreader"
+              />
+              <p class="works-rubric">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--наша команда-->
+      <section class="team">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-workers">
+            <li class="team-item">
+              <img src="./images/demyanenko.jpg" width="270" alt="photo" />
+              <h3 class="team-header">Игорь Демьяненко</h3>
+              <p class="team-rubric" lang="en">Product Designer</p>
+              <ul class="team-social">
+                <li>
+                  <!--оставляем или aria-label="" или <span></span>-->
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Instagram"
+                    aria-label="Instagram"
+                    ><span>Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
+                    aria-label="Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Facebook"
+                    aria-label="Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Linkedin"
+                    aria-label="Linkedin"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="team-item">
+              <img src="./images/repina.jpg" width="270" alt="photo" />
+
+              <h3 class="team-header">Ольга Репина</h3>
+              <p class="team-rubric" lang="en">Frontend Developer</p>
+              <ul class="team-social">
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Instagram"
+                    aria-label="Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
+                    aria-label="Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Facebook"
+                    aria-label="Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Linkedin"
+                    aria-label="Linkedin"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="team-item">
+              <img src="./images/tarasov.jpg" width="270" alt="photo" />
+
+              <h3 class="team-header">Николай Тарасов</h3>
+              <p class="team-rubric" lang="en">Marketing</p>
+              <ul class="team-social">
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Instagram"
+                    aria-label="Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
+                    aria-label="Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Facebook"
+                    aria-label="Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Linkedin"
+                    aria-label="Linkedin"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="team-item">
+              <img src="./images/yermakov.jpg" width="270" alt="photo" />
+
+              <h3 class="team-header">Михаил Ермаков</h3>
+              <p class="team-rubric" lang="en">UI Designer</p>
+              <ul class="team-social">
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Instagram"
+                    aria-label="Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
+                    aria-label="Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Facebook"
+                    aria-label="Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Linkedin"
+                    aria-label="Linkedin"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clientage">
+        <div class="container">
+          <h2 class="clientage-header">Постоянные клиенты</h2>
+          <ul class="clientage-list">
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/a-company.svg" width="42" alt="a-company"
+                /></a>
+              </button>
+            </li>
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/b-company.svg" alt="b-company"
+                /></a>
+              </button>
+            </li>
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/c-company.svg" alt="c-company"
+                /></a>
+              </button>
+            </li>
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/d-company.svg" alt="d-company"
+                /></a>
+              </button>
+            </li>
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/i-company.svg" alt="i-company"
+                /></a>
+              </button>
+            </li>
+            <li class="clientage-icon">
+              <button>
+                <a href="#" class="clients-list"
+                  ><img src="./images/f-company.svg" alt="f-company"
+                /></a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--подвал сайта-->
+    <footer class="footer">
+      <div class="container end">
+        <div class="footer-item">
+          <a href="./index.html" class="logo">
+            <span class="logo-web">Web</span>
+            <span class="logo-studio finish">Studio</span>
+          </a>
+          <!-- </div>
+       <div class="footer-address"> -->
+          <address>
+            <ul class="footer-list">
+              <li class="footer-street">
+                <a href="#"> г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="footer-mail">
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li class="footer-tel">
+                <a href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <b>присоединяйтесь</b>
+          <ul class="footer-link">
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+                aria-label="Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+                aria-label="Twitter"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+                aria-label="Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Linkedin"
+                aria-label="Linkedin"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <p>Подпишитесь на рассылку</p>
+          <div class="button-corection">
+            <a class="footer-button">подписаться </a>
+          </div>
+          <!-- <button class="button">подписаться</button> -->
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
